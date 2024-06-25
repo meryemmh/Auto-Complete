@@ -1,8 +1,15 @@
 # Autocomplete Component
 
-This Autocomplete component is designed using React v18.20.2, MUI Base UI v5.15.20, and Tailwind CSS v3.4.4. It enables users to choose an option from a dynamically filtered list as they type.
+This project contains an Autocomplete component developed with React v18.20.2, MUI Base UI v5.15.20, and Tailwind CSS v3.4.4, allowing real-time search for universities.
 
-## Installation
+## Features
+  - Real-time university search using an API.
+  - Input debouncing for improved performance.
+  - Dropdown list display with matching results.
+  - Selection of a university to automatically fill the search field.
+
+
+## Installation & Usage
 
 1. Clone the repository:
     ```sh
@@ -19,3 +26,5 @@ This Autocomplete component is designed using React v18.20.2, MUI Base UI v5.15.
     ```sh
     npm run dev
     ```
+
+This will launch the application in development mode. Open http://localhost:5173 to view it in the browser.
